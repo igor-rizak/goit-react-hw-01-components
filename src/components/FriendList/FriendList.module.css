@@ -1,14 +1,20 @@
-.status {
-  width: 10px;
-  height: 10px;
-  border: 1px solid fuchsia;
-  border-radius: 50%;
+.friendList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.status.online {
-  background-color: green;
-}
-
-.status.ofline {
-  background-color: red;
+.item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 40px;
+  background-color: rgb(22, 184, 196);
+  border-radius: 3%;
 }

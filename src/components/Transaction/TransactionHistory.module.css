@@ -10,8 +10,8 @@
 
 .head {
   font-size: 18px;
-  color: rgb(121, 4, 72);
-  background: rgb(197, 241, 86);
+  color: rgb(6, 2, 47);
+  background-color: rgb(22, 184, 196);
 }
 
 .table th,
@@ -25,5 +25,5 @@
 }
 
 tr:nth-child(2n) {
-  background: rgb(224, 220, 220);
+  background-color: rgb(66, 231, 243);
 }
